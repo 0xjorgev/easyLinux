@@ -20,7 +20,7 @@ sudo ln -sf /opt/bitnami/letsencrypt/certificates/$domain.crt /opt/bitnami/apach
 sudo chown root:root /opt/bitnami/apache2/conf/server*
 sudo chmod 600 /opt/bitnami/apache2/conf/server*
 
-sudo /opt/bitnami/ctlscript.sh stop
+sudo /opt/bitnami/ctlscript.sh restart
 
 # ****** SETP 4 ******
 # Be happy and Thankful
